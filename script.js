@@ -7,3 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
 loadMore.onclick = () => {
   console.log("1");
 };
+async function loadData() {
+  await fetch("https://fakestoreapi.com/products/")
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+}
+
+loadData();
