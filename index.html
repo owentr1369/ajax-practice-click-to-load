@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX Click to load</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Product</h1>
+      <div class="items">
+        <div class="item">
+          <h2>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
+          <h3>Price: <strong>109.95</strong></h3>
+          <img
+            src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+            alt=""
+          />
+          <p>
+            Your perfect pack for everyday use and walks in the forest. Stash
+            your laptop (up to 15 inches) in the padded sleeve, your everyday
+          </p>
+        </div>
+        <div class="item">
+          <h2>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
+          <h3>Price: <strong>109.95</strong></h3>
+          <img
+            src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+            alt=""
+          />
+          <p>
+            Your perfect pack for everyday use and walks in the forest. Stash
+            your laptop (up to 15 inches) in the padded sleeve, your everyday
+          </p>
+        </div>
+        <div class="item">
+          <h2>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
+          <h3>Price: <strong>109.95</strong></h3>
+          <img
+            src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+            alt=""
+          />
+          <p>
+            Your perfect pack for everyday use and walks in the forest. Stash
+            your laptop (up to 15 inches) in the padded sleeve, your everyday
+          </p>
+        </div>
+      </div>
+      <button class="load-more" id="load-more">Load More</button>
+    </div>
+  </body>
+  <style>
+    .container {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .items {
+      width: 90%;
+      min-width: 400px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+    }
+    .item {
+      width: 400px;
+      border: 1px solid #999;
+      border-radius: 8px;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    .item img {
+      width: 300px;
+      margin: auto;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      color: #fff;
+      background-color: #666;
+    }
+  </style>
+  <script src="./script.js"></script>
+</html>
