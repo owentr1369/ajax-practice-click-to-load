@@ -9,44 +9,7 @@
   <body>
     <div class="container">
       <h1>Product</h1>
-      <div class="items">
-        <div class="item">
-          <h2>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
-          <span>Price: <strong>$109.95</strong></span>
-          <img
-            src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
-            alt=""
-          />
-          <p>
-            Your perfect pack for everyday use and walks in the forest. Stash
-            your laptop (up to 15 inches) in the padded sleeve, your everyday
-          </p>
-        </div>
-        <div class="item">
-          <h2>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
-          <span>Price: <strong>$109.95</strong></span>
-          <img
-            src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
-            alt=""
-          />
-          <p>
-            Your perfect pack for everyday use and walks in the forest. Stash
-            your laptop (up to 15 inches) in the padded sleeve, your everyday
-          </p>
-        </div>
-        <div class="item">
-          <h2>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
-          <span>Price: <strong>$109.95</strong></span>
-          <img
-            src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
-            alt=""
-          />
-          <p>
-            Your perfect pack for everyday use and walks in the forest. Stash
-            your laptop (up to 15 inches) in the padded sleeve, your everyday
-          </p>
-        </div>
-      </div>
+      <div class="items" id="items"></div>
       <button class="load-more" id="load-more">Load More</button>
     </div>
   </body>
@@ -66,6 +29,7 @@
       justify-content: flex-start;
       align-items: center;
       gap: 20px;
+      flex-wrap: wrap;
     }
     .item {
       width: 400px;
